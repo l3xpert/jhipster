@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipster",
+    "packageName": "io.github.jhipster.mico",
+    "packageFolder": "io/github/jhipster/mico",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "NDZlMWQ4ZDBjNWRhODlkOWQ3MjJmZmQyMTgwNjE5OWRmMWM0MTRhODUxYTI4YWUzMjRhZDdlZjJmYmNhZTc3MzE5YjhlMWRmOTFmNzlhOGE3YmYxODA0Y2I5M2UzMzc0ZmYzNjE5NTcwN2FkNTJiNzRmZDI3MmVmYzEzZmE5NDA=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "l3xpert",
+  "repository-name": "jhipster"
+}
